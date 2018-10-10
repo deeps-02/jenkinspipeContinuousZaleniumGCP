@@ -3,7 +3,8 @@
          #!\bin\bash
          cd /home/drai96005
          git clone https://github.com/deepshikharai/Elk-deployment.git
-         cd /Elk-deployment
+         cd Elk-deployment
          ls
          chmod +x filebeat-kubernetes.yaml
          kubectl create -f filebeat-kubernetes.yaml
+         cd

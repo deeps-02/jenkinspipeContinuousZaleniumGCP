@@ -4,7 +4,7 @@
          #!/bin/bash
          cd /home/drai96005
          git clone https://github.com/deepshikharai/ZaleniumDeployment.git
-         cd /ZaleniumDeployment
+         cd ZaleniumDeployment
          kubectl version
          #kubectl create clusterrolebinding deepshikha --clusterrole=cluster-admin --user=drai96005@gmail.com
          chmod +x *.yaml
