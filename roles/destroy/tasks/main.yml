@@ -1,6 +1,16 @@
 - name: 
   shell: |
          #!/bin/bash
-         cd /home/drai96005/demoterraform
-         sleep 1m
+         cd /home/drai96005/demoterrfiles
+         sleep 1s
          terraform destroy -auto-approve
+-- name: 
+   shell: |
+          #!/bin/bash
+          cd
+          ls
+          rm -rf terraformfiles
+          rm -rf Elk-deployment
+          rm -rf ZaleniumDeployment
+          rm -rf dockerfileforNFS
+          rm -rf ImageExecutionYml 

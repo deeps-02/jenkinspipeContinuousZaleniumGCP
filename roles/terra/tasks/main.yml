@@ -2,10 +2,14 @@
  - name: run shell script
    shell: |
           #!/bin/bash
+          cd /home/drai96005
           git clone https://github.com/deepshikharai/terraformfiles.git
           cp -r /home/drai96005/demoterraform/account.json /home/drai96005/terraformfiles
-          cd /home/drai96005/demoterrafiles
+          cd /terraformfiles
           ls
+          chmod +x *.tf
+          chmod +x account.json
+          chmod +x *.tfvars
           terraform init
           terraform plan
           terraform apply -auto-approve 

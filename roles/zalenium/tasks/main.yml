@@ -2,10 +2,12 @@
 - name: run zalenium
   shell: |
          #!/bin/bash
-         #cd /home/drai96005/zalenium-yaml
-         cd /home/drai96005/zalenium-yaml-official/gke
+         cd /home/drai96005
+         git clone https://github.com/deepshikharai/ZaleniumDeployment.git
+         cd /ZaleniumDeployment
          kubectl version
          #kubectl create clusterrolebinding deepshikha --clusterrole=cluster-admin --user=drai96005@gmail.com
+         chmod +x *.yaml
          kubectl delete -f plumbing.yaml
          kubectl delete -f pv.yaml
          kubectl delete -f zalenium.yaml 
@@ -15,3 +17,4 @@
          kubectl create -f zalenium.yaml 
          kubectl create -f zalenium-service.yaml 
          sleep 1m
+         cd

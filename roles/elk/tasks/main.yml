@@ -1,6 +1,9 @@
-- name: deploy 
+- name: deploy Elk
   shell: |
          #!\bin\bash
-         cd /home/drai96005/elk-deployment
+         cd /home/drai96005
+         git clone https://github.com/deepshikharai/Elk-deployment.git
+         cd /Elk-deployment
          ls
+         chmod +x filebeat-kubernetes.yaml
          kubectl create -f filebeat-kubernetes.yaml

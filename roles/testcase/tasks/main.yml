@@ -1,7 +1,9 @@
 - name: run shell script
   shell: |
          #!/bin/bash
-         cd /home/drai96005/demoComplete 
+         cd /home/drai96005
+         git clone https://github.com/deepshikharai/dockerfileforNFS.git
+         cd /dockerfileNFS
          #sudo docker rm $(sudo docker ps -a -q)
          #sudo docker rmi $(sudo docker images -q)
          #sudo docker container prune -f
@@ -25,7 +27,11 @@
          #!/bin/bash
          sudo docker tag phptravel deepshikharai/phptravel:latest
          sudo docker push deepshikharai/phptravel:latest
-         cd /home/drai96005/imageexecution/
+         cd /home/drai96005
+         git clone https://github.com/deepshikharai/ImageExecutionYml.git
+         cd /ImageExecutionYml
+         chmod +x *.yaml
          kubectl create -f nfs-pv.yaml
          kubectl create -f nfs-pvc.yaml
          kubectl create -f php-test.yaml
+         cd

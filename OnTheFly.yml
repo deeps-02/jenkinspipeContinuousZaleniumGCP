@@ -7,4 +7,4 @@
     - elk
     - zalenium 
     - testcase 
-      # - destroy
+    - destroy
