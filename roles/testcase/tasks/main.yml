@@ -3,7 +3,7 @@
          #!/bin/bash
          cd /home/drai96005
          git clone https://github.com/deepshikharai/dockerfileforNFS.git
-         cd dockerfileNFS
+         cd dockerfileforNFS
          #sudo docker rm $(sudo docker ps -a -q)
          #sudo docker rmi $(sudo docker images -q)
          #sudo docker container prune -f
