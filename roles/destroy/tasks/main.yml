@@ -4,7 +4,7 @@
          cd /home/drai96005/terraformfiles
          sleep 1s
          terraform destroy -auto-approve
--- name: 
+- name: 
    shell: |
           #!/bin/bash
           cd
