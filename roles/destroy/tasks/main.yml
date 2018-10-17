@@ -4,10 +4,11 @@
          cd /home/drai96005/terraformfiles
          sleep 1s
          terraform destroy -auto-approve
+         cd
 - name:  
   shell: |
          #!/bin/bash
-         cd
+         cd /home/drai96005
          ls
          rm -rf terraformfiles
          rm -rf Elk-deployment
