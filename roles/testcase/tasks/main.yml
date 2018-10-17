@@ -19,7 +19,7 @@
          #!/bin/bash
          #hptravel
          # sudo docker tag phptravel deepshikharai/phptravel:latest
-         #sudo docker login -u="deepshikharai" -p="infosys16"
+         #sudo docker login -u="deepshikharai" -p=""
          #sudo docker push deepshikharai/phptravel:latest
          #kubectl run --image=deepshikharai/phptravel:latest php-test --restart=Never
 - name: execute image
