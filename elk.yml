@@ -1,0 +1,10 @@
+---
+- name: cluster-formation
+  hosts: localhost
+  become: yes
+  roles: 
+    - elk 
+      # - elk
+      # - zalenium 
+      # - testcase 
+      # - destroy
