@@ -1,10 +1,10 @@
-- name: 
-  shell: |
+#- name: 
+ # shell: |
          #!/bin/bash
-         cd /home/drai96005/terraformfiles
-         sleep 1s
-         terraform destroy -auto-approve
-         cd
+#         cd /home/drai96005/terraformfiles
+ #        sleep 1s
+  #       terraform destroy -auto-approve
+   #      cd
 - name:  
   shell: |
          #!/bin/bash
