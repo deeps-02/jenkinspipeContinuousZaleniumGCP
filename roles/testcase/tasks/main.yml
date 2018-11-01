@@ -10,7 +10,7 @@
          #sudo docker image prune -f
          sudo docker rmi phptravel
          sudo docker rmi deepshikharai/phptravel:latest
-         sudo docker build --build-arg url=https://github.com/deepshikharai/phptestsite.git --build-arg path=phptestsite/phptravels-test/ -t phptravel .
+         sudo docker build --build-arg url=https://github.com/deepshikharai/AutomatedTestReport.git --build-arg path=AutomatedTestReport/testng-test/ -t phptravel .
          sleep 2m
          cd 
          ls
