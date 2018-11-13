@@ -1,7 +1,7 @@
 - name: deploy Elk
   shell: |
          #!\bin\bash
-         cd /home/drai96005
+         cd /home/rait8681
          git clone https://github.com/deepshikharai/Elk-deployment.git
          cd Elk-deployment
          ls
