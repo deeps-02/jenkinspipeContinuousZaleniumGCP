@@ -8,7 +8,7 @@
 - name:  
   shell: |
          #!/bin/bash
-         cd /home/drai96005
+         cd /home/rait8681
          ls
          rm -rf terraformfiles
          rm -rf Elk-deployment
