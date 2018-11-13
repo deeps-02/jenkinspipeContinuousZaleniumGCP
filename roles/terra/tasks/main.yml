@@ -4,7 +4,7 @@
             #!/bin/bash
             cd /home/drai96005
             git clone https://github.com/deepshikharai/terraformfiles.git
-            cp -r /home/drai96005/demoterraform/account.json /home/drai96005/terraformfiles
+            cp -r /home/rait8681/demoterraform/account.json /home/rait8681/terraformfiles
             cd terraformfiles
             ls
             chmod +x *.tf
