@@ -1,7 +1,7 @@
 - name: run shell script
   shell: |
          #!/bin/bash
-         cd /home/drai96005
+         cd /home/rait8681
          git clone https://github.com/deepshikharai/dockerfileforNFS.git
          cd dockerfileforNFS
          #sudo docker rm $(sudo docker ps -a -q)
@@ -27,7 +27,7 @@
          #!/bin/bash
          sudo docker tag phptravel deepshikharai/phptravel:latest
          sudo docker push deepshikharai/phptravel:latest
-         cd /home/drai96005
+         cd /home/rait8681
          git clone https://github.com/deepshikharai/ImageExecutionYml.git
          cd ImageExecutionYml
          chmod +x *.yaml
