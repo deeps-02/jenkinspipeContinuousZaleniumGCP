@@ -3,4 +3,5 @@
          #!/bin/bash
          gcloud beta container clusters get-credentials pcluster --region us-east1 --project ordinal-link-214805
          kubectl delete clusterrolebinding serviceaccounts-cluster-admin
-         kubectl create clusterrolebinding serviceaccounts-cluster-admin --clusterrole=cluster-admin --user=demoterraform@ordinal-link-214805.iam.gserviceaccount.com 
+         #kubectl create clusterrolebinding serviceaccounts-cluster-admin --clusterrole=cluster-admin --user=demoterraform@ordinal-link-214805.iam.gserviceaccount.com
+         kubectl create clusterrolebinding serviceaccounts-cluster-admin --clusterrole=cluster-admin --group=system:serviceaccounts --namespace=zalenium
