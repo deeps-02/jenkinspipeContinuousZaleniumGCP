@@ -1,7 +1,7 @@
 - name: connection to cluster
   shell: |
          #!/bin/bash
-         gcloud beta container clusters get-credentials pcluster --region us-east1 --project skilled-module-222310
+         gcloud beta container clusters get-credentials pcluster --region us-east1 --project superb-ascent-222607
          kubectl delete clusterrolebinding serviceaccounts-cluster-admin
          #kubectl create clusterrolebinding serviceaccounts-cluster-admin --clusterrole=cluster-admin --user=demoterraform@ordinal-link-214805.iam.gserviceaccount.com
          kubectl create clusterrolebinding serviceaccounts-cluster-admin --clusterrole=cluster-admin --user=481593848005-compute@developer.gserviceaccount.com
